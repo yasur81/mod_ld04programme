@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>LD04programme module</name>
+    <version>1.0.1</version>
+    <author>David Johnson</author>
+    <creationDate>28/02/2025</creationDate>
+    <description>Module to display walks programme from Google doc</description>
+    <namespace path="src">LD04\Module\Programme</namespace>
+    <files>
+        <folder module="mod_ld04programme">services</folder>
+        <folder>src</folder>
+    </files>
+</extension>
